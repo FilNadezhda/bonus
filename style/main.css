@@ -1,0 +1,102 @@
+* { box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+/*CONTEINER
+==============================*/
+.conteiner
+{
+  width: 630px;
+  height: 630px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+/*CIRCLE
+==============================*/
+.circle {
+ width: 20%;
+ height: 20%;
+ border-radius: 50%;
+ background: #EE220C;
+}
+
+.top--left:hover {
+ background-color: #c749c9;
+ position: absolute;
+ z-index: 2;
+}
+
+.top--left {
+ position: absolute;
+ top:15%;
+ right: 60%;
+  
+}
+.top--right:hover {
+ background-color: #2b1b94;
+ position: absolute;
+ z-index: 2;
+ }
+
+.top--right {
+ position: absolute;
+ top: 15%;
+ right: 16%;
+ 
+}
+
+.bottom--left:hover {
+ background-color: #42f54b;
+ position: absolute;
+ z-index: 2;
+}
+
+.bottom--left {
+ position: absolute;
+ top: 60%;
+ right: 60%;
+}
+
+.bottom--right:hover {
+ background-color:#f242f5;
+ position: absolute;
+ z-index: 2;
+
+}
+
+.bottom--right {
+ position: absolute;
+ top:60%;
+ right: 16%;
+}
+
+.blue--big:hover {
+  background-color: #F8BA00;
+  position: absolute;
+  z-index: 3;
+}
+/*SQUERE
+=====================================*/
+.blue--big {
+ width: 45%;
+ padding-bottom: 45%;
+ background:#00A2FF;
+ position: absolute;
+ top: 25%;
+ right: 25%;
+z-index: 0;
+}
+
+.yellow--small {
+ width: 25%;
+ padding-top: 25%;
+ border-radius: 10%;
+ background: #F8BA00;
+ position: absolute;
+ z-index: 1;
+ right: 35%;
+ top: 35%;
+}
